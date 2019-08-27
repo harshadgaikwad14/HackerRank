@@ -117,7 +117,7 @@ public class TwoDArray {
 			}
 		}
 
-		// System.out.println("Map : " + postionMap);
+		 System.out.println("Map : " + postionMap);
 
 		Set<Integer> sumData = new HashSet<>();
 
@@ -148,22 +148,22 @@ public class TwoDArray {
 
 			for (int j = columnFrom; j < coulmnTo; j++) {
 
-				// System.out.print(arr[i][j] + " ");
+				 System.out.print(arr[i][j] + " ");
 				count = count + arr[i][j];
 
 			}
 
-			// System.out.println("");
+			 System.out.println("");
 
 		}
-		/*
-		 * System.out.println("REMOVED VALUE :" + arr[rowFrom + 1][columnFrom]);
-		 * System.out.println("REMOVED VALUE :" + arr[rowFrom + 1][coulmnTo -
-		 * 1]);
-		 */
+		
+		  System.out.println("REMOVED VALUE :" + arr[rowFrom + 1][columnFrom]);
+		  System.out.println("REMOVED VALUE :" + arr[rowFrom + 1][coulmnTo -
+		  1]);
+		 
 		arraySum = count - arr[rowFrom + 1][columnFrom] - arr[rowFrom + 1][coulmnTo - 1];
 
-		// System.out.println("Count : " + arraySum);
+		 System.out.println("Count : " + arraySum);
 
 		return arraySum;
 
